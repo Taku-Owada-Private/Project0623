@@ -1,0 +1,15 @@
+body{
+    font-family:'メイリオ', 'Meiryo', sans-serif;
+  }
+
+#top{
+    color: red;
+}
+
+#middle{
+    color: blue;
+}
+
+#bottom{
+    color: yellow;
+}
