@@ -13,3 +13,8 @@ body{
 #bottom{
     color: yellow;
 }
+
+.logo-image{
+    width: 3%;
+    height: 3%;
+}
