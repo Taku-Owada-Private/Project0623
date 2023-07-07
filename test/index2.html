@@ -11,72 +11,139 @@
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
   <!-- CSS -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/35814a9798.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div id="nav-section">
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-      <div class="container-fluid">
-
-        <a href="" class="navbar-brand">BrandName</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collpaseTarget"
-          aria-controls="collpaseTarget" aria-expanded="false" aria-label="collpaseTarget">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
 
-        <div class="collapse navbar-collapse" id="collpaseTarget">
-          <ul class="navbar-nav ms-auto float-end">
-            <li class="nav-item"><a href="" class="nav-link">sample1</a></li>
-            <li class="nav-item"><a href="" class="nav-link">sample2</a></li>
-            <li class="nav-item"><a href="" class="nav-link">sample3</a></li>
-          </ul>
-        </div>
+  <nav class=" navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
 
+      <a href="" class="navbar-brand">BrandName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collpaseTarget"
+        aria-controls="collpaseTarget" aria-expanded="false" aria-label="collpaseTarget">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="collpaseTarget">
+        <ul class="navbar-nav ms-auto float-end">
+          <li class="nav-item"><a href="" class="nav-link">sample1</a></li>
+          <li class="nav-item"><a href="" class="nav-link">sample2</a></li>
+          <li class="nav-item"><a href="" class="nav-link">sample3</a></li>
+        </ul>
       </div>
-    </nav>
+
+    </div>
+  </nav>
+
+  <div class="container-xs">
+    <div id="topcarousel" class="carousel slide carousel-dark" data-bs-ride="carousel" data-bs-interval="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#topcarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#topcarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#topcarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/website_blog.png" class="d-block w-100 p-4" alt="...">
+          <div class="carousel-caption c-caption">
+            <button class="btn btn-outline-primary btn-lg w-75 h-75 fw-bold">Start</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/website_news.png" class="d-block w-100 p-4" alt="...">
+          <div class="carousel-caption c-caption">
+            <button class="btn btn-outline-primary btn-lg w-75 h-75 fw-bold">Start</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/website_normal.png" class="d-block w-100 p-4" alt="...">
+          <div class="carousel-caption c-caption">
+            <button class="btn btn-outline-primary btn-lg w-75 h-75 fw-bold">Start</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev my-5 " type="button" data-bs-target="#topcarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next my-5" type="button" data-bs-target="#topcarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </div>
 
 
-  <div id="carousel-section">
-    <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+  <!-- <div id="carousel-section" class="container  text-center p-2">
+    <div id="carouselControls" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-interval="false">
       <div class="carousel-inner">
-        <!-- First-Slide -->
+        
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselControls" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carouselControls" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carouselControls" data-bs-slide-to="2"></li>
+        </ol>
+        
         <div class="carousel-item active">
-          <img src="img/website_normal.png" alt="FirstSlide">
+          <img src="img/website_normal.png" alt="FirstSlide" class="img-fluid">
+          <div class="carousel-caption  d-none d-sm-block">
+            <h3>FirstSlide</h3>fugit eveniet aut at obcaecati voluptas eaque veniam enim! Atque.</p>
+          </div>
         </div>
-        <!-- Second-Slide -->
+       
         <div class="carousel-item">
-          <img src="img/website_news.png" alt="SecondSlide">
+          <img src="img/website_news.png" alt="SecondSlide" class="img-fluid">
+          <div class="carousel-caption  d-none d-sm-block">
+            <h3>SecondSlide</h3>fugit eveniet aut at obcaecati voluptas eaque veniam enim! Atque.</p>
+          </div>
         </div>
-        <!-- Third-Slide -->
+      
         <div class="carousel-item">
-          <img src="img/website_blog.png" alt="ThirdSlide">
+          <img src="img/website_blog.png" alt="ThirdSlide" class="img-fluid">
+          <div class="carousel-caption  d-none d-sm-block">
+            <h3>ThirdSlide</h3>fugit eveniet aut at obcaecati voluptas eaque veniam enim! Atque.</p>
+          </div>
         </div>
       </div>
     </div>
-    <!-- コントローラー部分 -->
-    <!-- 前に戻るアイコン -->
-    <a href="#carouselControls" class="carousel-control-prev" role="button" data-bs-slide="prev">
+   
+
+
+    
+    <a href="#carouselControls" class="carousel-control-prev " role="button" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">前に戻る</span>
     </a>
-    <!-- 次に進むアイコン -->
-    <a href="#carouselControls" class="carousel-control-next" role="button" data-bs-slide="next">
+    
+    <a href="#carouselControls" class="carousel-control-next " role="button" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">次に進む</span>
     </a>
+
+
+  </div> -->
+
+  <!-- <div id="test" class="container">
+    <div class="row text-center aaa">
+      <div class="col">1</div>
+      <div class="col">1</div>
+      <div class="col">1</div>
+    </div>
+
+
   </div>
+  <a href="" class="sample">Sample</a>
+  <a href="" class="sample2">Sample2</a> -->
 
-  <section id="bottom">
 
-  </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
